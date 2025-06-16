@@ -6,3 +6,9 @@ body{
     padding: 0;
     margin: 0;
 }
+.bg-img{
+    background-image: url(img/footer-bg-img.svg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
