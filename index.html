@@ -6,83 +6,146 @@
     <title>Hostprofis LP V4 (DE)</title>
     <script src="https://kit.fontawesome.com/2273d92091.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="bg-[#301900] text-white p-5 flex">
-            <a class="ml-40 mr-25 flex" href="#"><img src="./img/red-logo.png" class="mr-3">  AUS ÖSTERREICH</a>
-            <a href="#" class="mr-25 flex"><img src="img/coin.png" class="mr-3">BIS ZU 60% GÜNSTIGER</a>
-            <a href="#" class="mr-25 flex"><img src="img/file.png" class="mr-3"> JEDERZEIT KÜNDBAR</a>
-            <a href="#"class=" flex"><img src="img/profile.png" class="mr-3"> 40.000+ KUNDEN</a>
-        </div>
-        <nav class="bg-[#FAF4EB] p-4 flex border-b-2 border-[#FAC800]"> 
-            <img src="./img/logo.png" class="ml-10 ">
-            <div class="ml-20 mt-5">
-            <a href="#" class="">FUNKTIONEN</a>
-            <a href="#" class="ml-20">PREISE</a>
-            <a href="#" class="ml-20">REVIEWS</a>
-            <a href="#" class="ml-20">VERGLEICH</a>
-            <a href="#" class="ml-20">faq</a>
-            <button class="ml-15 border-2 border-yellow text-[#FAC800] p-3 rounded-full" >Beratung Vereinbaren<i class="fa-solid fa-arrow-right-long ml-2"></i></button>
-            </div>
-        </nav>
-    </header>
-    <div class="flex mt-15 ml-15 mr-15 mb-20">
-        <div class="mt-10 mr-">
-         <div class="flex mb-2"><img src="img/star.png" class="mr-3">Die <strong class="mr-1 ml-1"> #1 </strong> bei <strong class="mr-1 ml-1"> 40.000+ Unternehmen</strong></div>
-            <h1 class="font-bold text-5xl  ">Sie sind von der ISDN Abschaltung betroffen?</h1>
-            <p class="mt-4 mr-10 ">Wechseln Sie in nur 14 Tagen zu moderner Cloud-Telefonie – ohne hohe Kosten, ohne Stress und ohne Unterbrechungen.</p>
-            <div class="flex mt-7"><img src="img/check.png" class="mr-3">Ihre Telefonnummern <strong class="ml-1">bleiben erhalten </strong></div>
-            <div class="flex mt-3"><img src="img/check.png" class="mr-3">Keine <strong class="ml-1"> teuren Anschaffungskosten</strong></div>
-            <div class="flex mt-3"><img src="img/check.png" class="mr-3">Betreuung durch unser<strong class="ml-1"> österreichisches Team</strong></div>
-            <div class="border-2 border-[#FAC800] p-5 rounded-2xl mt-10 mr-20">
-            <p>"Unsere ISDN-Leitung wurde mit nur 6 Wochen Frist gekündigt. Hostprofis hat unser neues System in nur 14 Tagen eingerichtet und wir konnten alle Nummern behalten. Keine Ausfallzeit, kein Stress."</p>
-            <div class="flex mt-3 mb-2"> <img src="img/gregor-zeisl.png" class="mr-3">
-            <div><strong>Gregor Zeisl </strong> <img src="img/star.png"></div>
-            </div>
-            </div>
-        </div>
-        <div class="border-2 border-[#FAC800] p-10 rounded-2xl bg-[#FAF4EB] ">
-            <h2 class="text-center text-3xl font-bold w-110 ml-20">Jetzt 100% kostenlos und unverbindlich beraten lassen!</h2>
-            <form>
-                <div class="flex mt-5">
-           <div><label>Vor- und Nachname</label>
-            <input class="border-2 border-gray-300 p-3 pr-15 pl-5 rounded-3xl bg-white text-gray-400 mr-3 mt-2" placeholder="Max Mustermann" type="text" >
-            </div><div>
-            <label>Firmenname</label>
-            <input class="border-2 border-gray-300 p-3 pr-15 pl-5 rounded-3xl bg-white text-gray-400 mt-2" placeholder="Mustermann GmbH" type="text">
-            </div>
-                </div>
-            <div class="flex mt-3">
-           <div><label>Email</label>
-            <input class="border-2 border-gray-300 p-3 pr-15 pl-5 rounded-3xl bg-white text-gray-400 mr-15 mt-2" placeholder="max@mustermann.at" type="email"  required >
-            </div>
-            <div>
-            <label>Telefonnummer</label>
-            <input class="border-2 border-gray-300 p-3 pr-15 pl-5 rounded-3xl bg-white text-gray-700 mr-3 mt-2" placeholder="+43 123456789" type="number" value="+43" required>
-            </div>
-            </div>
-            <div class="mt-3">
-            <label>Wie viele Mitarbeiter hat Ihr Unternehmen?</label>
-              <input class="border-2 border-gray-300 p-3 pr-90 pl-5 rounded-3xl bg-white text-gray-400 mt-2" placeholder="Wählen Sie die Anzahl Ihrer Mitarbeiter" type="number" value="Wählen Sie die Anzahl Ihrer Mitarbeiter" required>
-            </div>
-            <button class="mt-10 bg-[#FAC800] text-white text-xl p-5 pl-35 pr-30 rounded-full">Jetzt Kostenlos Beraten Lassen</button>
-            <div class="mt-5 ml-35 text-gray-500"><i class="fa-solid fa-lock"></i> Ihre Daten sind sicher – Keine Werbung!</div>
-            <div class="flex mt-10 ml-15">
-                <img src="img/top-50.png" class="mr-5">
-                <img src="img/pc-a-list.png"  class="mr-5">
-                <img src="img/capterra.png"  class="mr-5">
-                <img src="img/leader.png"  class="mr-5">
-                <img src="img/pc-pro.png">
-            </div>
-            </form>
-        </div>
+<header>
+
+    <div class="bg-[#301900] text-white md:px-48 py-1 flex ">
+            <a href="#" class="md:mr-20 md:flex md:text-[16px]">  <img src="/img/red-logo.png" class="mr-3"> AUS ÖSTERREICH </a>
+            <a href="#" class="md:mr-20 md:flex md:text-[16px] "> <img src="img/coin.png" class="mr-3"> BIS ZU 60% GÜNSTIGER </a>
+            <a href="#" class="md:mr-20 md:flex md:text-[16px]">  <img src="img/file.png" class="mr-3"> JEDERZEIT KÜNDBAR    </a>
+            <a href="#"class="md:flex  md:text-[16px]">        <img src="img/profile.png" class="mr-3"> 40.000+ KUNDEN    </a>
+
     </div>
-    <div class="bg-[#FAF4EB] p-10 text-center font-bold">
+
+     <nav class="bg-[#FAF4EB] md:p-4 flex md:border-b-2 md:border-[#FAC800]"> 
+
+            <img src="/img/logo.png" class="md:ml-20 ">
+            
+        <div class=" md:ml-20 mt-5">
+            <a href="#" class="text-[15px]">FUNKTIONEN</a>
+            <a href="#" class="text-[15px] ml-16">PREISE</a>
+            <a href="#" class="text-[15px] ml-16">REVIEWS</a>
+            <a href="#" class="text-[15px] ml-16">VERGLEICH</a>
+            <a href="#" class="text-[15px] ml-16">FAQ</a>
+            <button class="md:ml-15 border-2 border-yellow text-[#FAC800] md:p-3 rounded-full" >Beratung Vereinbaren<i class="fa-solid fa-arrow-right-long ml-2"></i></button>
+
+    </div>
+    </nav>
+    </header>
+
+
+    <div class="md:flex md:mt-14 md:px-16 md:mb-20 mt-6 px-5">
+    <div class="md:mt-28 ">
+
+
+    <div class="flex mb-2 text-[14px]">
+        <img src="img/star.svg" class="mr-2">Die <strong class="mr-1 ml-1"> #1 </strong> bei <strong class="mr-1 ml-1"> 40.000+ Unternehmen</strong>
+        </div>
+
+            <h1 class="font-bold md:text-5xl text-2xl">Sie sind von der ISDN Abschaltung betroffen?</h1>
+            <p class="md:mr-10 md:text[20px] md:w-[510px] mt-3 mb-6 text-[14px] w-[325px]">Wechseln Sie in nur 14 Tagen zu moderner Cloud-Telefonie – ohne hohe Kosten, ohne Stress und ohne Unterbrechungen.</p>
+
+
+
+            <div class="flex">
+            <img src="img/check.png" class="md:mr-3 mr-1"><p class="text-[14px]">Ihre Telefonnummern <strong class="ml-1">bleiben erhalten </strong>
+             </p></div>
+
+            <div class="flex mt-3">
+            <img src="img/check.png" class="md:mr-3 mr-1"><p class="text-[14px]">Keine <strong class="ml-1"> teuren Anschaffungskosten</strong>
+            </p></div>
+
+            <div class="flex mt-3">
+            <img src="img/check.png" class="md:mr-3 mr-1"><p class="text-[14px]">Betreuung durch unser<strong class="ml-1"> österreichisches Team</strong>
+            </p></div>
+
+            
+            <div class="border-2 border-[#FAC800] rounded-xl p-4  md:mt-8 md:mr-16 mt-5 mb-11">
+            <p class="md:w-[500px] w-[299px] text-[14px]">"Unsere ISDN-Leitung wurde mit nur 6 Wochen Frist gekündigt. 
+                Hostprofis hat unser neues System in nur 14 Tagen eingerichtet 
+                und wir konnten alle Nummern behalten. Keine Ausfallzeit, kein Stress."</p>
+
+            <div class="flex my-3"> 
+                <img src="img/gregor-zeisl.png" class="mr-3 ">
+            <div class="flex"><strong class="text-[14px]">Gregor Zeisl </strong> <img src="img/star.svg" class="w-20 "></div>
+
+        </div>
+        </div>
+        </div>
+
+
+        <div class="border-2 border-[#FAC800]  rounded-2xl md:px-6 py-7 bg-[#FAF4EB] p-5 ">
+        <div class="text-center md:text-3xl font-bold md:w-[466px] md:ml-10 mb-7 text-2xl w-[291px] pl-10 ">Jetzt 100% kostenlos und unverbindlich beraten lassen!</div>
+
+
+        
+        <form>
+        <div class="md:flex md:gap-9">
+        <div>
+            <label>Vor- und Nachname</label>
+            <input class="border-2 border-gray-300 md:p-3 md:pr-20 pl-5 rounded-3xl bg-white md:my-2 pr-36 p-2" placeholder="Max Mustermann" type="text" >
+            </div>
+            
+            <div class="mt-">
+            <label>Firmenname</label>
+            <input class="border-2 border-gray-300 md:p-3 md:pr-20 pl-5 rounded-3xl bg-white md:my-2 pr-36 p-2" placeholder="Mustermann GmbH" type="text">
+         </div>
+         </div>
+
+
+           <div class="md:flex md:gap-9 ">
+           <div>
+           <label>Email</label>
+           <input class="border-2 border-gray-300 rounded-3xl bg-white md:p-3 md:pr-20 pl-5 md:my-2 pr-36 p-2" placeholder="max@mustermann.at" type="email"  required >
+           </div>
+
+
+            <div >
+            <label>Telefonnummer</label>
+            <input class="border-2 border-gray-300 rounded-3xl bg-white md:p-3 md:pr-20 pl-5 md:my-2 pr-36 p-2" placeholder="+43 123456789" type="number" value="+43" required>
+            </div>
+            </div>
+
+
+
+            <div class="mt-3">
+            <p class="md:pb-3 md:mb-3">Wie viele Mitarbeiter hat Ihr Unternehmen?</p>
+            <label class="border-2 border-gray-300 rounded-3xl bg-white  text-gray-500 md:p-3 pl-5  md:mt-2 pr-6 p-2 "required>Wählen Sie die Anzahl Ihrer Mitarbeiter
+        <select class="md:ml-50 ml-2">
+       <option value="one"></option>
+       <option value="two">two</option>
+       <option value="three">three</option>
+       <option value="four">four</option>
+       <option value="five">five </option>
+       <option value="six">six</option>
+  </select>
+  </label>
+  </div>
+
+            <button class="md:mt-16 bg-[#FAC800] text-white font-bold md:text-xl md:px-32 py-4 rounded-full px-10 ml-3 mt-3">Jetzt Kostenlos Beraten Lassen</button>
+            <div class="md:mt-4 md:ml-35 text-gray-500 my-5"><i class="fa-solid fa-lock mr-2"></i> Ihre Daten sind sicher – Keine Werbung!</div>
+
+            <div class="md:flex md:mt-11 md:mx-14 grid grid-cols-5 mt-3 ">
+                <img src="img/top-50.png" class="mr-4">
+                <img src="img/pc-a-list.png"  class="mr-4">
+                <img src="img/capterra.png"  class="mr-4">
+                <img src="img/leader.png"  class="mr-4">
+                <img src="img/pc-pro.png">
+               </div>
+    </form>
+    </div>
+    </div>
+
+
+
+    
+     <div class="bg-[#FAF4EB] py-16 text-center font-bold">
         Die #1 bei 40.000+ Unternehmen
-        <div class="flex justify-center mt-5 ml-30">
-            <img src="img/fujitsu.png" class="ml-3">
+        <div class="flex px-7 pt-4 grid grid-cols-3">
+            <img src="img/fujitsu.png" class="mr-3">
             <img src="img/berndorf.png"class="mr-3">
             <img src="img/aelman.png"  class="mr-3">
             <img src="img/grohe.png"   class="mr-3">
@@ -90,130 +153,121 @@
             <img src="img/lindt.png"   class="mr-3">
             <img src="img/dachser.png" class="mr-3">
             <img src="img/salzburg.png"class="mr-3">
-            <img src="img/panalpina.png"class="mr-30"> 
+            <img src="img/panalpina.png"> 
         </div>
-    </div>
-    <div class="mt-20 mb-30">
+        </div>
+
+        <div class="mt-16 mb-20">
         <h2 class="font-bold text-4xl ml-35">Ihre komplette Cloud Telefonanlage schon ab €14,90 pro Nutzer</h2>
-      <p class="mt-5 text-center ml-50 mr-50">Sie erhalten alle <strong class="mr-2 ml-1">Premium-Funktionen einer Enterprise-Telefonanlage,</strong>
+        <p class="mt-5 text-center ml-50 mr-50">Sie erhalten alle <strong class="mr-2 ml-1">Premium-Funktionen einer Enterprise-Telefonanlage,</strong>
         kombiniert mit<strong class="mr-1 ml-1">maximaler Benutzerfreundlichkeit</strong>und das zu einem  <strong class="mr-1"></strong>  
        <strong class="mr-1 ml-1">Bruchteil der Kosten.</strong>Wir kümmern uns um den perfekten Start und den reibungslosen Betrieb – Sie genießen modernste Kommunikationstechnik ohne komplizierte Installation.</p>
-    </div>
- 
-    <div>
-        <div class="flex mb-50">
+       </div>
+
+
+
+        <div>
+        <div class="flex mb-50 px-16">
             <div>
-                <img src="img/keine-it.png" class="ml-20 border-2 border-[#FAC800] rounded-2xl [#FAF4EB] w-150">
+            <img src="img/keine-it.png" class=" border-2 border-[#FAC800] rounded-2xl [#FAF4EB]">
             </div>
-            <div class="ml-5 mt-10">
-                <h2 class="text-4xl font-bold   w-140 ">Keine IT-Kopfschmerzen beim Wechsel in die Cloud</h2>
-                <p class="w-110 mt-3">Wir übernehmen den gesamten Umstieg von der alten Telefonanlage in die Cloud für Sie. <strong class="ml-1 mr-1">Schnell, einfach und kostenlos.</strong> </p>
-                <div class="mt-10 w-130 flex">
-                    <div class="mt-1 mr-2"><img src="img/check.png"></div>
-                    <p>Ihr System ist in nur <strong class="ml-1 mr-1"> 14 Tagen einsatzbereit</strong>  – professionell eingerichtet und perfekt konfiguriert. </p>
+
+
+            <div class="pl-6 mt-10 w-[500px]">
+                <h2 class="text-4xl font-bold ">Keine IT-Kopfschmerzen beim Wechsel in die Cloud</h2>
+                <p class="mt-3">Wir übernehmen den gesamten Umstieg von der alten Telefonanlage in die Cloud für Sie. <strong class="ml-1 mr-1">Schnell, einfach und kostenlos.</strong> </p>
+
+
+                <div class="mt-10  flex">
+                <div class="mt-1 mr-2"><img src="img/check.png"></div>
+                <p>Ihr System ist in nur <strong class="ml-1 mr-1"> 14 Tagen einsatzbereit</strong>  – professionell eingerichtet und perfekt konfiguriert. </p>
                 </div>
 
-                 <div class="mt-3 w-120 flex">
-                    <div class="mt-1 mr-2"><img src="img/check.png"></div>
-                    <p>Sie bleiben während dem Umstieg für Ihre Kunden <strong class="ml-1 mr-1"> 100% ohne Unterbrechung erreichbar.</strong></p>
+
+                <div class="mt-3 flex">
+                <div class="mt-1 mr-2"><img src="img/check.png"></div>
+                <p>Sie bleiben während dem Umstieg für Ihre Kunden <strong class="ml-1 mr-1"> 100% ohne Unterbrechung erreichbar.</strong></p>
                 </div>
 
-                 <div class="mt-3 w-130 flex">
-                    <div class="mt-1 mr-2"><img src="img/check.png" class="w-8"></div>
-                    <p>Wir kümmern uns um die komplette Nummernübertragung, damit<strong class="ml-1 mr-1">Ihre alten Nummern nahtlos weiter funktionieren. </strong></p>
-                </div>
+                <div class="mt-3 flex">
+                <div class="mt-1 mr-2"><img src="img/check.png" class="w-8"></div>
+                <p>Wir kümmern uns um die komplette Nummernübertragung, damit<strong class="ml-1 mr-1">Ihre alten Nummern nahtlos weiter funktionieren. </strong></p>
             </div>
-        </div>
-    </div>
+            </div>
+            </div>
+            </div>
 
 
-  <div>
-        <div class="flex mb-50 ml-20">
-          
-            <div class="ml-5 mt-10">
-                <h2 class="text-4xl font-bold   w-140 ">Persönlicher und regionaler Support aus Österreich</h2>
-                <p class="w-120 mt-3">Wir sind ein österreichisches Unternehmen mit Standorten in allen Bundesländern. Sie erreichen uns jederzeit – und bei dringenden Fällen sind wir blitzschnell vor Ort!</p>
-                <div class="mt-10 w-120 flex">
+
+            
+
+<div>
+<div class="flex mb-50 ml-20">
+
+               <div class=" mt-10 mr-7 w-[480px]">
+                <h2 class="text-4xl font-bold">Persönlicher und regionaler Support aus Österreich</h2>
+                <p class=" mt-3">Wir sind ein österreichisches Unternehmen mit Standorten in allen Bundesländern. Sie erreichen uns jederzeit – und bei dringenden Fällen sind wir blitzschnell vor Ort!</p>
+
+
+
+                <div class="mt-10 flex">
                     <div class="mt-1 mr-2"><img src="img/check.png" class="w-10"></div>
-                    <p><strong class="ml-1 mr-1"> Ihr persönlicher, lokaler Experte kennt Ihre Bedürfnisse –</strong> kein lästiges Weiterleiten an dutzende Ansprechpartner.<</p>
+                    <p><strong class="ml-1 mr-1"> Ihr persönlicher, lokaler Experte kennt Ihre Bedürfnisse –</strong> kein lästiges Weiterleiten an dutzende Ansprechpartner.</p>
                 </div>
 
-                 <div class="mt-3 w-130 flex">
+                 <div class="mt-3 flex">
                     <div class="mt-1 mr-2"><img src="img/check.png" class="w-10"></div>
                     <p> Unser <strong class="ml-1 mr-1">Expertenteam </strong>gewährleistet einen <strong class="ml-1 mr-1"> reibungslosen Betrieb,</strong> ohne Aufwand für Ihr Unternehmen. </p>
                 </div>
-
-                 <div class="mt-3 w-130 flex">
+                      
+                 <div class="mt-3 flex w-[500px]">
                     <div class="mt-1 mr-2"><img src="img/check.png" class="w-8"></div>
                     <p>Verlassen Sie sich auf <strong class="ml-1 mr-1"> erstklassigen Support aus Österreich </strong>mit persönlicher Betreuung vor Ort.</p>
                 </div>
-            </div>
-              <div>
-                <img src="img/laptop.png" class=" border-1 border-[#FAC800] rounded-2xl [#FAF4EB] w-150">
-            </div>
-        </div>
-    </div>
+                </div>
 
- <div>
-        <div class="flex mb-50">
-            <div>
-                <img src="img/mob-laptop.png" class="ml-20 border-2 border-[#FAC800] rounded-2xl [#FAF4EB] w-150">
-            </div>
-            <div class="ml-5 mt-10">
-                <h2 class="text-4xl font-bold  w-140 ">Über 150 Premium Funktionen für Ihre Business-Telefonie</h2>
-                <p class="w-110 mt-3">Mit unserer Cloud-Telefonanlage erhalten Sie alle Funktionen einer Enterprise-Telefonanlage – nur einfacher zu bedienen und zu einem Bruchteil der Kosten.</p>
+
+               <div><img src="img/laptop.png" ></div>
+               </div>
+               </div>
+
+
+
+              
+<div>
+<div class="flex mb-56 px-16">
+                <div>
+                <img src="img/mob-laptop.png" class="mr-14 border-2 border-[#FAC800] rounded-2xl [#FAF4EB]">
+                </div>
+
+
+                <div class="ml-5 mt-10 w-[550px]">
+                <h2 class="text-4xl font-bold ">Über 150 Premium Funktionen für Ihre Business-Telefonie</h2>
+                <p class="mt-4 w-[440px]">Mit unserer Cloud-Telefonanlage erhalten Sie alle Funktionen einer Enterprise-Telefonanlage – nur einfacher zu bedienen und zu einem Bruchteil der Kosten.</p>
+
+
                 <div class="mt-10 w-119 flex">
                     <div class="mt-1 mr-2"><img src="img/check.png"></div>
                     <p> Eine smarte <strong class="ml-1 mr-1"> digitale Rezeption </strong> leitet Ihre Anrufer sofort zum richtigen Ansprechpartner weiter.</p>
-                </div>
+                    </div>
 
                  <div class="mt-3 w-120 flex">
                     <div class="mt-1 mr-2"><img src="img/check.png"></div>
                     <p>Unser<strong class="ml-1 mr-1">intelligentes Warteschleifensystem </strong> mit <strong class="ml-1 mr-1">Rückrufoptionen</strong> sorgt für <strong class="ml-1 mr-1"> zufriedene Kunden.</strong></p>
-                </div>
+                    </div>
 
                  <div class="mt-3 w-110 flex">
                     <div class="mt-1 mr-2"><img src="img/check.png" class="w-8"></div>
                     <p>Nahtlose Anrufweiterleitung auf mobile Geräte, Call Recording, Konferenzschaltungen, <strong class="ml-1 mr-1"> und vieles mehr.</strong></p>
                 </div>
-            </div>
-        </div>
-    </div>
-
-
-      <div>
-        <div class="flex mb-50 ml-20">
-            <div class="ml-5 mt-10">
-                <h2 class="text-4xl font-bold   w-140 ">Professionelle Geschäftsanrufe von jedem Gerät aus tätigen</h2>
-                <p class="w-110 mt-3">Bleiben Sie überall erreichbar – ob im Büro, unterwegs oder im Home-Office:</p>
-                <div class="mt-10 w-130 flex">
-                    <div class="mt-1 mr-2"><img src="img/check.png"></div>
-                    <p>Nutzen Sie Ihre geschäftliche Rufnummer auf allen Geräten:<strong class="ml-1 mr-1">  Tischtelefon, Smartphone oder Computer.</strong></p>
                 </div>
-
-                 <div class="mt-3 w-120 flex">
-                    <div class="mt-1 mr-2"><img src="img/check.png"></div>
-                    <p>Wechseln Sie nahtlos zwischen <strong class="ml-1 mr-1"> verschiedenen Arbeitsorten.  </strong>Ihre Erreichbarkeit bleibt konstant.</p>
                 </div>
-
-                 <div class="mt-3 w-124 flex">
-                    <div class="mt-1 mr-2"><img src="img/check.png" class="w-8"></div>
-                    <p>Ermöglichen Sie Ihrem Team <strong class="ml-1 mr-1">maximale Bewegungsfreiheit</strong>bei gleichbleibend<strong class="ml-1 mr-1"> professionellem Auftreten. </strong></p>
                 </div>
-            </div>
-          <div>
-                <img src="img/calls-from-device.png" class=" border-2 border-[#FAC800] rounded-2xl [#FAF4EB] w-150">
-            </div>
-        </div>
-    </div>
-
-
 
     <div>
-        <div class="flex mb-30">
-            <div>
-                <img src="img/" class="ml-20 border-2 border-[#FAC800] rounded-2xl [#FAF4EB] w-150">
-            </div>
+        <div class="flex mb-32 px-12">
+            <div><img src="img/logo-frame.svg"></div>
+
             <div class="ml-5 mt-10">
                 <h2 class="text-4xl font-bold   w-140 ">Nahtlose Integration mit Ihren bestehenden Systemen</h2>
                 <p class="w-110 mt-3">Vernetzen Sie Ihre Kommunikation<strong class="ml-1 mr-1"> auf Knopfdruck </strong>mit all Ihren Tools und Geschäftsprozessen: </p>
@@ -298,7 +352,7 @@
     </div>
     </div>
     <div class="mb-10"><button class="bg-[#AB8900] text-white  text-xl p-3 pl-10 pr-10 rounded-full"> Jetzt Kostenlos Beraten Lassen</button>
-    <div class="ml-130 flex mt-5"><img src="img/star.png" class="mr-2">Über <strong>40.000</strong> zufriedene Kunden</div>
+    <div class="ml-130 flex mt-5"><img src="img/star.svg" class="mr-2">Über <strong>40.000</strong> zufriedene Kunden</div>
     </div>
     </div>
 
@@ -313,28 +367,28 @@
            
              <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-80">"Früher hatten unsere Kunden nur unsere privaten Handynummern. Jetzt erreichen sie eine professionelle automatische Zentrale, die sie direkt zum richtigen Ansprechpartner weiterleitet"</p>
             <div class="flex mt-3 mb-2"> <img src="img/michelle-menger.png" class="mr-3">
-            <div><strong>Michelle Menger </strong> <img src="img/star.png"></div>
+            <div><strong>Michelle Menger </strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
 
              <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-80">"Keine Überraschungsrechnungen oder hohe Wartungskosten mehr. Wir zahlen jeden Monat einen festen Betrag, und Hostprofis kümmert sich um alles."</p>
             <div class="flex mt-3 mb-2"> <img src="img/ben-diemberger.png" class="mr-3">
-            <div><strong>Ben Diemberger</strong> <img src="img/star.png"></div>
+            <div><strong>Ben Diemberger</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
 
              <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-80">"Keine verpassten Anrufe mehr, kein Chaos mit Mobiltelefonen – alles funktioniert wie ein großes Unternehmenssystem."</p>
             <div class="flex mt-3 mb-2"> <img src="img/martina-bogen.png" class="mr-3">
-            <div><strong>Martina Bogen</strong> <img src="img/star.png"></div>
+            <div><strong>Martina Bogen</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
 
              <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5"><p class="w-80">"Das Beste? Keine Koordination mehr zwischen verschiedenen Anbietern, wenn etwas schiefgeht. Ein Anruf bei Hostprofis, und alles ist geregelt – für einen Bruchteil der Kosten, die wir früher hatten."</p>
             <div class="flex mt-3 mb-2"> <img src="img/aaron-mesmer.png" class="mr-3">
-            <div><strong>Aaron Mesmer</strong> <img src="img/star.png"></div>
+            <div><strong>Aaron Mesmer</strong> <img src="img/star.svg></div>
             </div>
             </div>
 
@@ -345,14 +399,14 @@
 
             <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-90">"Wir haben jährlich €3.000 nur für Wartung bezahlt. Mit Hostprofis konnten wir unsere Telefonkosten um 55 % senken und alles funktioniert reibungslos!"</p>
             <div class="flex mt-3 mb-2"> <img src="img/jonathan-brendel.png" class="mr-3">
-            <div><strong>Jonathan Brendel </strong> <img src="img/star.png"></div>
+            <div><strong>Jonathan Brendel </strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
 
               <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-90">"Als kleines Unternehmen wollten wir professioneller wirken. Die automatischen Begrüßungen und die Anrufweiterleitung begeistern unsere Kunden!"</p>
             <div class="flex mt-3 mb-2"> <img src="img/klian-kollek.png" class="mr-3">
-            <div><strong>Kilian Kollek</strong> <img src="img/star.png"></div>
+            <div><strong>Kilian Kollek</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
@@ -360,14 +414,14 @@
             
             <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-80">"Unser altes System hat uns ein Vermögen für Wartung und Mobilfunkkosten gekostet. Jetzt haben wir bessere Funktionen für die Hälfte der Kosten!"</p>
             <div class="flex mt-3 mb-2"> <img src="img/natalie-mateschitz.png" class="mr-3">
-            <div><strong>Natalie Mateschitz</strong> <img src="img/star.png"></div>
+            <div><strong>Natalie Mateschitz</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
 
               <div class="border-1 border-[#FAC800] rounded-2xl p-8 mr-5 mb-7"><p class="w-80">"Als unser ISDN gekündigt wurde, brauchten wir schnell eine zukunftssichere Lösung. Hostprofis hat sich um alles gekümmert – absolut TOP!"</p>
             <div class="flex mt-3 mb-2"> <img src="img/tim-dorn.png" class="mr-3">
-            <div><strong>Tim Dorn</strong> <img src="img/star.png"></div>
+            <div><strong>Tim Dorn</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
@@ -379,26 +433,26 @@
 
    <div class="border-1 border-[#FAC800] rounded-2xl p-8 mb-7"><p class="w-80">“Unsere ISDN-Leitung wurde mit nur 6 Wochen Frist gekündigt. Hostprofis hat unser neues System in nur 14 Tagen eingerichtet, Keine Ausfallzeit, kein Stress!”</p>
             <div class="flex mt-3 mb-2"> <img src="img/gregor-zeisl.png" class="mr-3">
-            <div><strong>Gregor Zeisl </strong> <img src="img/star.png"></div>
+            <div><strong>Gregor Zeisl </strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
             <div class="border-1 border-[#FAC800] rounded-2xl p-8 mb-7"><p class="w-80">"Ich hatte Angst vor der ISDN-Umstellung, nachdem unser Anbieter uns €4.631 in Rechnung stellen wollte. Hostprofis hat alles für eine einfache monatliche Gebühr ohne zusätzliche Kosten erledigt."</p>
             <div class="flex mt-3 mb-2"> <img src="img/matheo-cella.png" class="mr-3">
-            <div><strong>Matheo Cella</strong> <img src="img/star.png"></div>
+            <div><strong>Matheo Cella</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
 
                  <div class="border-1 border-[#FAC800] rounded-2xl p-8 mb-7"><p class="w-80">"Unsere Kunden merken nicht, ob wir im Büro oder unterwegs sind. Das System lässt unser kleines Team wie eine viel größere Organisation wirken."</p>
             <div class="flex mt-3 mb-2"> <img src="img/oliver-makart.png" class="mr-3">
-            <div><strong>Oliver Makart</strong> <img src="img/star.png"></div>
+            <div><strong>Oliver Makart</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
     <div class="border-1 border-[#FAC800] rounded-2xl p-8 mb-7"><p class="w-80">"Ich war echt nervös wegen dem Wechsel. Aber Hostprofis hat alles organisiert und unser Team an einem Nachmittag geschult."</p>
             <div class="flex mt-3 mb-2"> <img src="img/eva-breuer.png" class="mr-3">
-            <div><strong>Eva Breuer</strong> <img src="img/star.png"></div>
+            <div><strong>Eva Breuer</strong> <img src="img/star.svg"></div>
             </div>
             </div>
 
@@ -459,8 +513,8 @@
     </div>
 
 
-<div class="ml-15 mt-25">
-    <div class="w-147 mb-10">
+<div class="bg-img  pl-16">
+    <div class="w-147 mb-10 pt-28">
         <h4 class="font-bold text-4xl mb-3">Starten Sie jetzt mit moderner Cloud-Telefonie</h4>
         <p>Vereinbaren Sie ein kurzes Gespräch mit unserem Team und erleben Sie, wie viel einfacher Geschäftstelefonie sein kann.</p>
     </div>
@@ -477,12 +531,12 @@
 
     <div class="mt-10">
         <button class="bg-[#FAC800] text-white  text-xl p-3 pl-7 pr-7 rounded-full mb-5">Jetzt Kostenlos Beraten Lassen</button>
-        <div class="flex"><img src="img/star.png" class="mr-2 mb-25">Über<strong class="ml-1 mr-1"> 40.000 </strong>zufriedene Kunden</div>
+        <div class="flex"><img src="img/star.svg" class="mr-2 mb-25">Über<strong class="ml-1 mr-1"> 40.000 </strong>zufriedene Kunden</div>
     </div>
 </div>
 
 
-<footer class="bg-black text-white flex p-10 ">
+<footer class=" bg-black text-white flex p-10 ">
 
     <div class="ml-20">© 2025 HostProfis ISP Telekom GmbH</div>
     <img src="img/footer-logo.png" class="ml-50">
@@ -490,9 +544,6 @@
         <li > Impressum</li>
         <li class="ml-5 mr-5">AGB</li>
         <li >Datenschutz</li>
-    </div>
-
-</footer>
-
-</body>  
-</html>
+    </div> 
+</body>
+</html>  
